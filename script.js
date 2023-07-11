@@ -5,9 +5,9 @@ function fibonacci(num) {
 	let c=0;
 	for(let i=0; i<num; i++)
 		{
-			if (i==0)
+			if (i===0)
 				return a;
-			if (i==1)
+			if (i===1)
 	            return b;
 			else
 			{
