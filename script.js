@@ -6,9 +6,13 @@ function fibonacci(num) {
 	for(let i=0; i<num; i++)
 		{
 			if (i===0)
+			{
 				return a;
+			}
 			if (i===1)
+			{
 	            return b;
+			}
 			else
 			{
 				c=a+b;
