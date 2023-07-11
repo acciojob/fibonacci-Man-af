@@ -6,17 +6,17 @@ function fibonacci(num) {
 	for(let i=0; i<num; i++)
 		{
 			if (i==0)
-				console.log(a);
+				return a;
 			if (i==1)
-				console.log(b);
+	            return b;
 			else
 			{
 				c=a+b;
-				console.log(c);
 				a=b;
 				b=c;
 			}
 		}
+	return c;
 }
 
 module.exports = fibonacci;
