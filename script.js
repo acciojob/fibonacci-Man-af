@@ -3,16 +3,13 @@ function fibonacci(num) {
 	let a=0;
 	let b=1;
 	let c=0;
-	for(let i=0; i<num; i++)
+	for(let i=1; i<=num; i++)
 		{
-			if (i===0)
-			{
+			if (num===1)
 				return a;
-			}
-			if (i===1)
-			{
+			
+			if (num===2)
 	            return b;
-			}
 			else
 			{
 				c=a+b;
